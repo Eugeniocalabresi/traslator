@@ -1,2 +1,3 @@
-# traslator
-Created with CodeSandbox
+# Traslator
+
+A word translator made in React
