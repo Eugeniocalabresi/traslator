@@ -13,7 +13,7 @@ export default function App() {
   useEffect( () => {
     console.log('language: '+ language);
     console.log('text: '+ text);
-  },[language,text])
+  },[language, text])
 
   return (
 
