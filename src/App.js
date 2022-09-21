@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import Field from "./components/field";
 import Translate from "./components/translate";
 import Languages from "./components/languages";
+import {faker} from '@faker-js/faker';
 
 export default function App() {
 
@@ -22,6 +23,7 @@ export default function App() {
       <Languages language={language} onLanguageChange={setLanguage}/>
       <hr />
       <Translate text={text} language={language}/>
+      <img alt='faker' width={300} height={300} src={faker.image.avatar()} />
     </div>
   );
 }
